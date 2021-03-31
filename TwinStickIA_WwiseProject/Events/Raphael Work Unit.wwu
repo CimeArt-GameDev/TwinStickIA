@@ -1,6 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{657D9C86-6E9F-4CE0-87A7-2C21E50546A4}" SchemaVersion="97">
 	<Events>
-		<WorkUnit Name="Raphael Work Unit" ID="{657D9C86-6E9F-4CE0-87A7-2C21E50546A4}" PersistMode="Standalone"/>
+		<WorkUnit Name="Raphael Work Unit" ID="{657D9C86-6E9F-4CE0-87A7-2C21E50546A4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Footsteps" ID="{DBC3D307-CD68-4862-B31A-E0B71C4F1B0F}">
+					<ChildrenList>
+						<Action Name="" ID="{60B691A0-143B-42C7-832B-7E609125F923}" ShortID="51142340">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps_Rnd" ID="{A2D1D25C-E8A2-498E-81E2-E8BF439DE931}" WorkUnitID="{1911E4CE-B00B-4333-A3CE-CE86C2F21061}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Grawl" ID="{4E026820-74A9-42ED-836F-216C1B6F0583}">
+					<ChildrenList>
+						<Action Name="" ID="{FBF3C0F2-64FA-40C3-B4E2-F703BFB09F8E}" ShortID="940249253">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grawl_Rnd" ID="{11D348CA-42E5-4EBF-A633-7AA24DFF371F}" WorkUnitID="{1911E4CE-B00B-4333-A3CE-CE86C2F21061}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Die" ID="{D35F15F6-212F-473B-AE2F-EE4C26D62E41}">
+					<ChildrenList>
+						<Action Name="" ID="{A7E62BA4-F6B2-4BCE-BFC5-E5E10CFDE215}" ShortID="753672983">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BossDie_Rnd" ID="{5D4B97A6-FE2A-4469-BE33-B8CD066EB1D3}" WorkUnitID="{1911E4CE-B00B-4333-A3CE-CE86C2F21061}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_howl" ID="{7D3119C2-32DA-4D6C-A5EB-9C2A2FF318A2}">
+					<ChildrenList>
+						<Action Name="" ID="{C827DFAF-811C-4A92-89B0-93B1B525E602}" ShortID="192274449">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Howl_Rnd" ID="{F21B7ACA-DC02-4393-A35D-B6EDC701C078}" WorkUnitID="{1911E4CE-B00B-4333-A3CE-CE86C2F21061}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ShortGrawl" ID="{EF75537F-8730-4EE7-B2B5-78690C157FA0}">
+					<ChildrenList>
+						<Action Name="" ID="{1E057BAC-AA0C-4CDD-B37E-E40F896E3716}" ShortID="974743929">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ShortGrawl_Rnd" ID="{F0B95CB7-0D6C-4DE4-831E-DDFFBA763A13}" WorkUnitID="{1911E4CE-B00B-4333-A3CE-CE86C2F21061}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
