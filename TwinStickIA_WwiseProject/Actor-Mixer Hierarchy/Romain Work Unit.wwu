@@ -7,12 +7,22 @@
 					<ChildrenList>
 						<ActorMixer Name="Dist_Die_MIXER" ID="{7BB32462-EE1B-4AEB-B2CA-3E25B795C8A5}" ShortID="540347030">
 							<PropertyList>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{120B49CE-606E-4E70-A67E-9D79D88AE063}"/>
 										</ModifierInfo>
 									</ModifierList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -157,12 +167,22 @@
 					<ChildrenList>
 						<ActorMixer Name="Dist_Hit_MIXER" ID="{1852887A-BCB0-4AE2-8B2C-4DCDD167C2D3}" ShortID="415472882">
 							<PropertyList>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{7F95C0F4-EA9C-4382-9B07-65725023B303}"/>
 										</ModifierInfo>
 									</ModifierList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -369,12 +389,22 @@
 					<ChildrenList>
 						<ActorMixer Name="Dist_Attack_MIXER" ID="{D1DA0F1F-5412-4DEC-8ED4-216FF9D49EE3}" ShortID="623690716">
 							<PropertyList>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{758FE406-18DE-49A4-B1CC-490D7F16A207}"/>
 										</ModifierInfo>
 									</ModifierList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>

@@ -27,7 +27,7 @@
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="B6GbDtN2ME+djJBJC/PgPAGEBzz/////Zrq+UXOLBUqHRAntu3IuCwGEBzz/////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="B6GbDtN2ME+djJBJC/PgPAGEMDv/////Zrq+UXOLBUqHRAntu3IuCwGEMDv/////"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
@@ -57,7 +57,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="FkhfAFY7g0Otg4tE7iULGCEgAdXD6/xMqhVAQXw96OXZJ7ZfSyJwTo7iLpCAK0DbUtB6GRB90E67PqTOhrm7bw=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="vWnDs/8+QUGOGz3PY1Twm4VMmVhq7s1CpVIMN/ES1SwWSF8AVjuDQ62Di0TuJQsYMonXpdpO+USDStBx+7WZcCLyrioZJkhFoAkSqjukVY0hIAHVw+v8TKoVQEF8Pejl2Se2X0sicE6O4i6QgCtA21LQehkQfdBOuz6kzoa5u28="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="rlDX8EvU+0OC4VXyuGJ+gdvMbud9KdhFkAcGYQ7myLxho/pD+VaOS5HBjp7N/taq"/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
