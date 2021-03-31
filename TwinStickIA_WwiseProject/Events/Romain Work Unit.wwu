@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E76ECCDB-297D-45D8-9007-06610EE6C8BC}" SchemaVersion="97">
 	<Events>
-		<WorkUnit Name="Romain Work Unit" ID="{E76ECCDB-297D-45D8-9007-06610EE6C8BC}" PersistMode="Standalone"/>
+		<WorkUnit Name="Romain Work Unit" ID="{E76ECCDB-297D-45D8-9007-06610EE6C8BC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Dist_Attack_RAND" ID="{77FDE02B-0628-42C9-9E84-4E6625BDD639}">
+					<ChildrenList>
+						<Action Name="" ID="{CB7348AC-4F05-45FB-B8EE-8FE5BCDB8476}" ShortID="274389466">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dist_Attack_RAND" ID="{9EDE5079-CEFE-4E71-A3A2-B5A9049D351A}" WorkUnitID="{58994C85-EE6A-42CD-A552-0C37F112D52C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Dist_Die_RAND" ID="{B90FF95C-80AD-4367-83D7-14EA9DCCF8E5}">
+					<ChildrenList>
+						<Action Name="" ID="{B9A976BC-3757-4532-BEDF-4502252ADC7D}" ShortID="121090625">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dist_Die_RAND" ID="{B77B0E22-1A66-40F6-BCFE-38A30F9156E4}" WorkUnitID="{58994C85-EE6A-42CD-A552-0C37F112D52C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Dist_Hit_RAND" ID="{C1E8F153-44A5-44ED-99DB-A912B2282EA6}">
+					<ChildrenList>
+						<Action Name="" ID="{8575993C-0573-4620-B89F-0BA39C73BB32}" ShortID="1067046655">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dist_Hit_RAND" ID="{7D1E15B6-841A-4598-94E8-68F56A61BB61}" WorkUnitID="{58994C85-EE6A-42CD-A552-0C37F112D52C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

@@ -3,8 +3,13 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{444BF865-C251-4C3C-BC0D-5585AF927F25}">
 			<PropertyList>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="G:\CIMEART\Sound Design\SoundsBank\MC_Villager\"/>
+				<Property Name="Event Action List\{77FDE02B-0628-42C9-9E84-4E6625BDD639}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8123F284-EC2F-490D-933E-1D532C4D61AA}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B90FF95C-80AD-4367-83D7-14EA9DCCF8E5}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{BAFB1CCC-1071-4237-9621-B963402F2720}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C1E8F153-44A5-44ED-99DB-A912B2282EA6}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E2B388FE-1131-46F9-B579-128ABF8B6FBB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -39,7 +44,7 @@
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_6_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
 				<Property Name="ProjectExplorer\FirstVisible_8_1" Type="string" Value="{41093F77-829F-4D88-8601-E8B25F3D4781}"/>
-				<Property Name="ProjectExplorer\x64_Expanded_10_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_10_1" Type="string" Value="mlEmUCZqQUWLZLkbhjlevA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_11_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_13_1" Type="string" Value=""/>
@@ -52,8 +57,8 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="hUyZWGruzUKlUgw38RLVLBZIXwBWO4NDrYOLRO4lCxghIAHVw+v8TKoVQEF8Pejl2Se2X0sicE6O4i6QgCtA21LQehkQfdBOuz6kzoa5u28="/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="FkhfAFY7g0Otg4tE7iULGCEgAdXD6/xMqhVAQXw96OXZJ7ZfSyJwTo7iLpCAK0DbUtB6GRB90E67PqTOhrm7bw=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="rlDX8EvU+0OC4VXyuGJ+gdvMbud9KdhFkAcGYQ7myLxho/pD+VaOS5HBjp7N/taq"/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value=""/>
@@ -91,6 +96,7 @@
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
+				<Property Name="Soundcaster\PreviousSession" Type="string" Value="{23555CA8-5289-48F3-9772-C2B37E400366}"/>
 			</PropertyList>
 		</UserProjectSettings>
 	</UserProjectSettingsInfo>

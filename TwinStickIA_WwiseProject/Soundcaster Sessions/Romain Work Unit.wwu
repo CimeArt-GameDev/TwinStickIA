@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5026519A-6A26-4541-8B64-B91B86395EBC}" SchemaVersion="97">
 	<SoundcasterSessions>
-		<WorkUnit Name="Romain Work Unit" ID="{5026519A-6A26-4541-8B64-B91B86395EBC}" PersistMode="Standalone"/>
+		<WorkUnit Name="Romain Work Unit" ID="{5026519A-6A26-4541-8B64-B91B86395EBC}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Dist_Ennemies_SC" ID="{23555CA8-5289-48F3-9772-C2B37E400366}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Dist_Attack_RAND" ID="{77FDE02B-0628-42C9-9E84-4E6625BDD639}" WorkUnitID="{E76ECCDB-297D-45D8-9007-06610EE6C8BC}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Dist_Die_RAND" ID="{B90FF95C-80AD-4367-83D7-14EA9DCCF8E5}" WorkUnitID="{E76ECCDB-297D-45D8-9007-06610EE6C8BC}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Dist_Hit_RAND" ID="{C1E8F153-44A5-44ED-99DB-A912B2282EA6}" WorkUnitID="{E76ECCDB-297D-45D8-9007-06610EE6C8BC}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

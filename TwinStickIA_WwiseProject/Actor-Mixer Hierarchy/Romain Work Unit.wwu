@@ -3,9 +3,610 @@
 	<AudioObjects>
 		<WorkUnit Name="Romain Work Unit" ID="{58994C85-EE6A-42CD-A552-0C37F112D52C}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="Dist Die_VF" ID="{2AAEF222-2619-4548-A009-12AA3BA4558D}" ShortID="145333018"/>
-				<Folder Name="Dist Hit_VF" ID="{B3C369BD-3EFF-4141-8E1B-3DCF6354F09B}" ShortID="776870508"/>
-				<Folder Name="Dist Attack_VF" ID="{A5D78932-4EDA-44F9-834A-D071FBB59970}" ShortID="841987467"/>
+				<Folder Name="Dist Die_VF" ID="{2AAEF222-2619-4548-A009-12AA3BA4558D}" ShortID="145333018">
+					<ChildrenList>
+						<ActorMixer Name="Dist_Die_MIXER" ID="{7BB32462-EE1B-4AEB-B2CA-3E25B795C8A5}" ShortID="540347030">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{120B49CE-606E-4E70-A67E-9D79D88AE063}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9215B653-AFB4-4006-8A70-CF5380A35A69}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{45D1091A-23C4-4784-A9D6-662F0524322B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Dist_Die_RAND" ID="{B77B0E22-1A66-40F6-BCFE-38A30F9156E4}" ShortID="883816005">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C4D5DEE2-0758-4A92-8FD6-53C96920FC72}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9215B653-AFB4-4006-8A70-CF5380A35A69}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{45D1091A-23C4-4784-A9D6-662F0524322B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="MC_Villager_Mmm_Long_01" ID="{C5B0BBCF-ACDC-4934-9B05-2B14A35BCB90}" ShortID="373809023">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{3B16063E-7D11-4F80-8C81-13BF6C7BE357}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9215B653-AFB4-4006-8A70-CF5380A35A69}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{45D1091A-23C4-4784-A9D6-662F0524322B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_Villager_Mmm_Long_01" ID="{C88C3EE5-9D1E-416E-AF69-A7750F83640B}">
+													<Language>SFX</Language>
+													<AudioFile>MC_Villager_Mmm_Long_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="106920706"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_Villager_Mmm_Long_01" ID="{C88C3EE5-9D1E-416E-AF69-A7750F83640B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_Villager_Mmm_Long_02" ID="{E2A3B5B1-73F6-4725-9FF2-8B0CF91CE58E}" ShortID="1049892190">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{92AC69BF-7EA4-4E62-92E2-69B98DC836AD}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9215B653-AFB4-4006-8A70-CF5380A35A69}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{45D1091A-23C4-4784-A9D6-662F0524322B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_Villager_Mmm_Long_02" ID="{1EB285C6-A206-4BD5-BD81-2271633F25AC}">
+													<Language>SFX</Language>
+													<AudioFile>MC_Villager_Mmm_Long_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="730435390"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_Villager_Mmm_Long_02" ID="{1EB285C6-A206-4BD5-BD81-2271633F25AC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_Villager_Mmm_Long_03" ID="{970B7E31-5564-45DF-B22E-9512C7580833}" ShortID="146624958">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{0A995B7E-9C28-48C5-A118-F142E039A40C}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9215B653-AFB4-4006-8A70-CF5380A35A69}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{45D1091A-23C4-4784-A9D6-662F0524322B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_Villager_Mmm_Long_03" ID="{48E82D8F-1F56-46F9-8F2E-61E95B6112A2}">
+													<Language>SFX</Language>
+													<AudioFile>MC_Villager_Mmm_Long_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="511084834"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_Villager_Mmm_Long_03" ID="{48E82D8F-1F56-46F9-8F2E-61E95B6112A2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Dist Hit_VF" ID="{B3C369BD-3EFF-4141-8E1B-3DCF6354F09B}" ShortID="776870508">
+					<ChildrenList>
+						<ActorMixer Name="Dist_Hit_MIXER" ID="{1852887A-BCB0-4AE2-8B2C-4DCDD167C2D3}" ShortID="415472882">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{7F95C0F4-EA9C-4382-9B07-65725023B303}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9215B653-AFB4-4006-8A70-CF5380A35A69}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{45D1091A-23C4-4784-A9D6-662F0524322B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Dist_Hit_RAND" ID="{7D1E15B6-841A-4598-94E8-68F56A61BB61}" ShortID="558209569">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DF7055A1-C76F-4266-902B-65D5D732FA00}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="35"/>
+															<Property Name="Min" Type="Real64" Value="-35"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9215B653-AFB4-4006-8A70-CF5380A35A69}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{45D1091A-23C4-4784-A9D6-662F0524322B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="MC_Villager_Hurt_01" ID="{6A20D3D3-3648-4749-B66A-6B6F7085769A}" ShortID="262005207">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{56FB2DB5-06B4-4B0B-B7BC-837A80FFCEDA}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9215B653-AFB4-4006-8A70-CF5380A35A69}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{45D1091A-23C4-4784-A9D6-662F0524322B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_Villager_Hurt_01" ID="{D6D859BC-4294-4B63-99B1-D9CD7DD474A7}">
+													<Language>SFX</Language>
+													<AudioFile>MC_Villager_Hurt_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="297329940"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_Villager_Hurt_01" ID="{D6D859BC-4294-4B63-99B1-D9CD7DD474A7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_Villager_Hurt_02" ID="{0E9FD5FD-4B0D-4522-9015-F24176E24C87}" ShortID="307945887">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{B3C76F0E-DC9A-41B6-9522-35E1604E51A5}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9215B653-AFB4-4006-8A70-CF5380A35A69}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{45D1091A-23C4-4784-A9D6-662F0524322B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_Villager_Hurt_02" ID="{B222D803-D28F-4475-BB2D-D81423467759}">
+													<Language>SFX</Language>
+													<AudioFile>MC_Villager_Hurt_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="62362323"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_Villager_Hurt_02" ID="{B222D803-D28F-4475-BB2D-D81423467759}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_Villager_Hurt_03" ID="{C5C787A4-964D-420F-9F00-455E0D6DCCE3}" ShortID="17758192">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{3D02C09A-23B6-4646-B662-49DC0FDD76FC}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9215B653-AFB4-4006-8A70-CF5380A35A69}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{45D1091A-23C4-4784-A9D6-662F0524322B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_Villager_Hurt_03" ID="{207864CC-57AE-4FA0-B64F-CBE55BE448F5}">
+													<Language>SFX</Language>
+													<AudioFile>MC_Villager_Hurt_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="361331110"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_Villager_Hurt_03" ID="{207864CC-57AE-4FA0-B64F-CBE55BE448F5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_Villager_Hurt_04" ID="{C36A7C00-CB1A-43C4-B621-ED6D07CC1CC0}" ShortID="1052714156">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{D16E80EC-F488-4779-B961-86C3BBE80A03}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9215B653-AFB4-4006-8A70-CF5380A35A69}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{45D1091A-23C4-4784-A9D6-662F0524322B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_Villager_Hurt_04" ID="{1CEE2CD9-10B5-4031-95F6-91AEA4160C6F}">
+													<Language>SFX</Language>
+													<AudioFile>MC_Villager_Hurt_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="624190950"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_Villager_Hurt_04" ID="{1CEE2CD9-10B5-4031-95F6-91AEA4160C6F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_Villager_Hurt_05" ID="{A43B4B43-0312-497D-B2D0-0C23CBAA0327}" ShortID="178981866">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{AD5377B6-CD17-419E-96A8-57DAA16BF47B}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9215B653-AFB4-4006-8A70-CF5380A35A69}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{45D1091A-23C4-4784-A9D6-662F0524322B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_Villager_Hurt_05" ID="{45ACF7AD-8B16-4748-A608-921CE5F9C992}">
+													<Language>SFX</Language>
+													<AudioFile>MC_Villager_Hurt_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="836081335"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_Villager_Hurt_05" ID="{45ACF7AD-8B16-4748-A608-921CE5F9C992}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Dist Attack_VF" ID="{A5D78932-4EDA-44F9-834A-D071FBB59970}" ShortID="841987467">
+					<ChildrenList>
+						<ActorMixer Name="Dist_Attack_MIXER" ID="{D1DA0F1F-5412-4DEC-8ED4-216FF9D49EE3}" ShortID="623690716">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{758FE406-18DE-49A4-B1CC-490D7F16A207}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9215B653-AFB4-4006-8A70-CF5380A35A69}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{45D1091A-23C4-4784-A9D6-662F0524322B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Dist_Attack_RAND" ID="{9EDE5079-CEFE-4E71-A3A2-B5A9049D351A}" ShortID="55786511">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DC97D730-CBEF-4C32-9D86-EE8A5C6848BD}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="125"/>
+															<Property Name="Min" Type="Real64" Value="-125"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9215B653-AFB4-4006-8A70-CF5380A35A69}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{45D1091A-23C4-4784-A9D6-662F0524322B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="MC_Villager_Mmm_05" ID="{C7239A0E-158B-4CFB-B2B1-8CBABA4BE174}" ShortID="490252543">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9215B653-AFB4-4006-8A70-CF5380A35A69}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{45D1091A-23C4-4784-A9D6-662F0524322B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_Villager_Mmm_05" ID="{0A79C8EF-04BC-42B8-A60B-73CF76B60955}">
+													<Language>SFX</Language>
+													<AudioFile>MC_Villager_Mmm_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="580883503"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_Villager_Mmm_05" ID="{0A79C8EF-04BC-42B8-A60B-73CF76B60955}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_Villager_Mmm_06" ID="{FC8DCC41-71EA-42FA-AE88-B2891BB6FDCD}" ShortID="849714249">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9215B653-AFB4-4006-8A70-CF5380A35A69}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{45D1091A-23C4-4784-A9D6-662F0524322B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_Villager_Mmm_06" ID="{E0220EA7-11ED-445E-B17E-4BFFD5927698}">
+													<Language>SFX</Language>
+													<AudioFile>MC_Villager_Mmm_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="291973372"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_Villager_Mmm_06" ID="{E0220EA7-11ED-445E-B17E-4BFFD5927698}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_Villager_Mmm_03" ID="{26D6B60A-95BA-4980-B463-4EB24A3C1030}" ShortID="68338585">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9215B653-AFB4-4006-8A70-CF5380A35A69}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{45D1091A-23C4-4784-A9D6-662F0524322B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_Villager_Mmm_03" ID="{C87392B0-8475-4DF9-BC72-ECC24F20829A}">
+													<Language>SFX</Language>
+													<AudioFile>MC_Villager_Mmm_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="703345105"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_Villager_Mmm_03" ID="{C87392B0-8475-4DF9-BC72-ECC24F20829A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_Villager_Mmm_02" ID="{36620BD8-5F63-48D2-90A3-C844BADBF5E6}" ShortID="59460414">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{E75E8929-5226-4595-B198-F90374041F36}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9215B653-AFB4-4006-8A70-CF5380A35A69}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{45D1091A-23C4-4784-A9D6-662F0524322B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_Villager_Mmm_02" ID="{229808CE-830F-4C9F-8C26-8833D9A21236}">
+													<Language>SFX</Language>
+													<AudioFile>MC_Villager_Mmm_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="732552979"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_Villager_Mmm_02" ID="{229808CE-830F-4C9F-8C26-8833D9A21236}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_Villager_Mmm_08" ID="{3294E54C-7EAA-4D56-8AB9-2633793E6471}" ShortID="612408372">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9215B653-AFB4-4006-8A70-CF5380A35A69}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{45D1091A-23C4-4784-A9D6-662F0524322B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_Villager_Mmm_08" ID="{6427FB11-716B-43E1-B060-7E8E5C7CFA17}">
+													<Language>SFX</Language>
+													<AudioFile>MC_Villager_Mmm_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="782214310"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_Villager_Mmm_08" ID="{6427FB11-716B-43E1-B060-7E8E5C7CFA17}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_Villager_Mmm_07" ID="{E6AAEE93-1375-4AD3-846F-C905916D210E}" ShortID="265860329">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9215B653-AFB4-4006-8A70-CF5380A35A69}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{45D1091A-23C4-4784-A9D6-662F0524322B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_Villager_Mmm_07" ID="{32DABE27-271B-4D72-9D7F-EBBA748EBB55}">
+													<Language>SFX</Language>
+													<AudioFile>MC_Villager_Mmm_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="331665127"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_Villager_Mmm_07" ID="{32DABE27-271B-4D72-9D7F-EBBA748EBB55}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_Villager_Mmm_01" ID="{5656C902-6220-4D4D-BEC8-60636C5F335C}" ShortID="646588062">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9215B653-AFB4-4006-8A70-CF5380A35A69}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{45D1091A-23C4-4784-A9D6-662F0524322B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_Villager_Mmm_01" ID="{E10D269E-FEC0-4179-A6DA-1839287A344B}">
+													<Language>SFX</Language>
+													<AudioFile>MC_Villager_Mmm_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="338869908"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_Villager_Mmm_01" ID="{E10D269E-FEC0-4179-A6DA-1839287A344B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_Villager_Mmm_04" ID="{59A6E25E-09CD-4E45-8FFE-71926FBF276B}" ShortID="756605432">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9215B653-AFB4-4006-8A70-CF5380A35A69}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{45D1091A-23C4-4784-A9D6-662F0524322B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_Villager_Mmm_04" ID="{2862F770-4CCF-4C9A-8540-1715B1C51BB6}">
+													<Language>SFX</Language>
+													<AudioFile>MC_Villager_Mmm_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="576301976"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_Villager_Mmm_04" ID="{2862F770-4CCF-4C9A-8540-1715B1C51BB6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

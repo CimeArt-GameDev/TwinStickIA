@@ -2,7 +2,7 @@
 <ValidationCache Version="1" SchemaVersion="97">
 	<ValidationCacheItem File="G:\CIMEART\Unreal\Projets\TwinStickIA\TwinStickIA_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1617178205" DateHigh="0"/>
 	<ValidationCacheItem File="G:\CIMEART\Unreal\Projets\TwinStickIA\TwinStickIA_WwiseProject\TwinStickIA_WwiseProject.wproj" DateLow="1617178205" DateHigh="0"/>
-	<ValidationCacheItem File="G:\CIMEART\Unreal\Projets\TwinStickIA\TwinStickIA_WwiseProject\TwinStickIA_WwiseProject.SMI.wsettings" DateLow="1617179259" DateHigh="0"/>
+	<ValidationCacheItem File="G:\CIMEART\Unreal\Projets\TwinStickIA\TwinStickIA_WwiseProject\TwinStickIA_WwiseProject.SMI.wsettings" DateLow="1617180573" DateHigh="0"/>
 	<ValidationCacheItem File="G:\CIMEART\Unreal\Projets\TwinStickIA\TwinStickIA_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1617178205" DateHigh="0"/>
 	<ValidationCacheItem File="G:\CIMEART\Unreal\Projets\TwinStickIA\TwinStickIA_WwiseProject\Switches\Rudhy Work Unit.wwu" DateLow="1617178205" DateHigh="0"/>
 	<ValidationCacheItem File="G:\CIMEART\Unreal\Projets\TwinStickIA\TwinStickIA_WwiseProject\Switches\Romain Work Unit.wwu" DateLow="1617178205" DateHigh="0"/>
@@ -42,7 +42,7 @@
 	<ValidationCacheItem File="G:\CIMEART\Unreal\Projets\TwinStickIA\TwinStickIA_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1617178204" DateHigh="0"/>
 	<ValidationCacheItem File="G:\CIMEART\Unreal\Projets\TwinStickIA\TwinStickIA_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1617178204" DateHigh="0"/>
 	<ValidationCacheItem File="G:\CIMEART\Unreal\Projets\TwinStickIA\TwinStickIA_WwiseProject\Actor-Mixer Hierarchy\Rudhy Work Unit.wwu" DateLow="1617179259" DateHigh="0"/>
-	<ValidationCacheItem File="G:\CIMEART\Unreal\Projets\TwinStickIA\TwinStickIA_WwiseProject\Actor-Mixer Hierarchy\Romain Work Unit.wwu" DateLow="1617178204" DateHigh="0"/>
+	<ValidationCacheItem File="G:\CIMEART\Unreal\Projets\TwinStickIA\TwinStickIA_WwiseProject\Actor-Mixer Hierarchy\Romain Work Unit.wwu" DateLow="1617180572" DateHigh="0"/>
 	<ValidationCacheItem File="G:\CIMEART\Unreal\Projets\TwinStickIA\TwinStickIA_WwiseProject\Actor-Mixer Hierarchy\Raphael Work Unit.wwu" DateLow="1617178204" DateHigh="0"/>
 	<ValidationCacheItem File="G:\CIMEART\Unreal\Projets\TwinStickIA\TwinStickIA_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1617178204" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Unreal Files\TwinStickIA\TwinStickIA_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1617174994" DateHigh="0"/>

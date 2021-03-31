@@ -25,6 +25,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Hitted_Rnd" ID="{E2B388FE-1131-46F9-B579-128ABF8B6FBB}">
+					<ChildrenList>
+						<Action Name="" ID="{4D717082-8606-4D6F-916F-BBC933205F42}" ShortID="213041620">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hitted_Rnd" ID="{3FD09D51-6327-4884-AAE3-13F3A56A52C8}" WorkUnitID="{D5012021-EBC3-4CFC-AA15-40417C3DE8E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
