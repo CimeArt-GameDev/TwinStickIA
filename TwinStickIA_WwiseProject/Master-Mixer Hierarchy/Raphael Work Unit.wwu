@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A611B24D-0C3D-468C-8CEC-0238839ED094}" SchemaVersion="97">
+	<Busses>
+		<WorkUnit Name="Raphael Work Unit" ID="{A611B24D-0C3D-468C-8CEC-0238839ED094}" PersistMode="Standalone"/>
+	</Busses>
+</WwiseDocument>
