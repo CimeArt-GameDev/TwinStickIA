@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{58994C85-EE6A-42CD-A552-0C37F112D52C}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="Romain Work Unit" ID="{58994C85-EE6A-42CD-A552-0C37F112D52C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Romain Work Unit" ID="{58994C85-EE6A-42CD-A552-0C37F112D52C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Dist Die_VF" ID="{2AAEF222-2619-4548-A009-12AA3BA4558D}" ShortID="145333018"/>
+				<Folder Name="Dist Hit_VF" ID="{B3C369BD-3EFF-4141-8E1B-3DCF6354F09B}" ShortID="776870508"/>
+				<Folder Name="Dist Attack_VF" ID="{A5D78932-4EDA-44F9-834A-D071FBB59970}" ShortID="841987467"/>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
