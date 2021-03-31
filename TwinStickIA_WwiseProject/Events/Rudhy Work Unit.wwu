@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{43FAA361-56F9-4B8E-91C1-8E9ECDFED6AA}" SchemaVersion="97">
 	<Events>
-		<WorkUnit Name="Rudhy Work Unit" ID="{43FAA361-56F9-4B8E-91C1-8E9ECDFED6AA}" PersistMode="Standalone"/>
+		<WorkUnit Name="Rudhy Work Unit" ID="{43FAA361-56F9-4B8E-91C1-8E9ECDFED6AA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Dies_Rnd" ID="{8123F284-EC2F-490D-933E-1D532C4D61AA}">
+					<ChildrenList>
+						<Action Name="" ID="{25E13DC6-1FC6-4459-8571-1319C0E4CED4}" ShortID="1049116106">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dies_Rnd" ID="{0B5355AA-D7BB-483B-873A-C99FA69AD9C4}" WorkUnitID="{D5012021-EBC3-4CFC-AA15-40417C3DE8E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Scream_Rnd" ID="{BAFB1CCC-1071-4237-9621-B963402F2720}">
+					<ChildrenList>
+						<Action Name="" ID="{DD879874-CF7F-4793-909D-DC73A0800E52}" ShortID="311155030">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Scream_Rnd" ID="{0659394B-57B9-4622-917E-D191D8BCF9A4}" WorkUnitID="{D5012021-EBC3-4CFC-AA15-40417C3DE8E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
